@@ -1,0 +1,397 @@
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: aliceblue;
+    
+}
+pre{
+    background-color: #000;
+}
+.siren{
+    background-color: #000;
+}
+
+
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+    height: 50px;
+    font-size: 1 rem;
+
+}
+#head a{
+    color: rgba(236, 187, 94, 0.815);
+    background-color: #000;
+    
+}
+#head a:hover{
+    
+    color: orange;
+    
+}
+
+.below-head
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+   
+}
+.head2{
+    /* position:fixed; */
+    width: 99.9%;
+    background-color: aliceblue;
+    padding: 0px 0px 0px 0px;
+    margin-top: 0%;
+}
+
+
+.icon-div{   
+   margin-left: 450px;
+   margin-right: 20px;
+}
+
+
+.bh-pic img{
+      height: 50px; 
+}
+
+.iconbh{
+          margin-left: 20px;
+          justify-content: flex-end;
+}
+
+.ribbon{
+     justify-content: center;
+     margin-bottom: 20px;
+     margin-top: 10px;
+    
+}
+.r1-first{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.r1-sec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    
+}
+
+.ra{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+
+.ra:hover{
+    border-bottom: 2px solid black ;
+   
+}
+
+.bh-pic photo{
+    height: 30px;
+}
+
+
+
+.photos-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    /* margin-top: 150px; */
+    margin-top: 20px;
+}
+
+.photos:hover{
+    opacity: 0.7;
+}
+
+.photos{
+    height: 100%;
+    width: 100%;
+    background-size: contain; 
+    background-repeat: no-repeat;  
+}
+
+.photo1{
+    background-image: url("https://cdn.shopify.com/s/files/1/1707/3445/files/Ice_Blast_Collection_copy_b9be86fb-52b4-4540-bc05-65e5005cb078.webp?v=1718279222");  
+}
+
+.photo2{
+    background-image: url("https://cdn.shopify.com/s/files/1/1707/3445/files/De-Tan_Neon_2_copy.webp?v=1718276506");  
+}
+.photo3{
+    background-image: url("https://cdn.shopify.com/s/files/1/1707/3445/files/charcoal_line_copy.webp?v=1718276506");  
+}
+.photo4{
+    background-image: url("https://cdn.shopify.com/s/files/1/1707/3445/files/Acne_copy.webp?v=1718276506");  
+}
+.photo5{
+    background-image: url("https://cdn.shopify.com/s/files/1/1707/3445/files/gift_-2_copy.webp?v=1718276506");  
+}
+.photo6{
+    background-image: url("https://cdn.shopify.com/s/files/1/1707/3445/files/Trimmer_copy.webp?v=1718276506");  
+}
+.photo7{
+    background-image: url("https://cdn.shopify.com/s/files/1/1707/3445/files/Intimate_copy.webp?v=1718276506");  
+}
+
+.adheading{
+    display:block;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(191, 216, 238);
+ 
+}
+
+.text{
+    
+    border-bottom: 2px solid black;  
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5%;
+        
+}
+.ads{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.container{
+    padding: 0%;
+    background-color: #000;
+    
+}
+
+.first-ad-ib{
+    background-image: url("https://www.darimooch.com/cdn/shop/files/Bundle_17.webp?v=1718353117&width=540");
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    height: 100%;
+ 
+}
+
+.sec-ad-ib{
+    background-image: url("https://www.darimooch.com/cdn/shop/files/Bundle_16.webp?v=1718352475&width=540");
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.third-ad-ib{
+    background-image: url("https://www.darimooch.com/cdn/shop/files/Bundle2.webp?v=1713521392&width=540");
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.add-to-cart{
+    border: 2px solid black;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.add-to-cart:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.description{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+
+.first-ad-sss{
+    background-image: url("https://www.darimooch.com/cdn/shop/files/Charcoal-Monthly-Bundle-Lip-Balm.jpg?v=1685688015&width=540");
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    height: 100%;
+ 
+}
+
+.sec-ad-sss{
+    background-image: url("https://www.darimooch.com/cdn/shop/files/Ultimate-Bundle.jpg?v=1685688242&width=540");
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.third-ad-sss{
+    background-image: url("https://www.darimooch.com/cdn/shop/products/Facewash-Face-Scrub.jpg?v=1676895079&width=540");
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.p1 {
+        background-image: url("https://www.darimooch.com/cdn/shop/products/Lip-Balm.jpg?v=1676895084&width=360");
+     
+    
+}
+.p2 {
+    background-image: url("https://www.darimooch.com/cdn/shop/products/Detan-Facewash_15471c6e-66bc-4d39-a138-f6ddb9c39db0.jpg?v=1676895075&width=360");
+
+}
+.p3 {
+    background-image: url("https://www.darimooch.com/cdn/shop/products/Urban-Beard-Oil_2ef6a076-be46-4d72-b2a7-c42785f8d1bd.jpg?v=1676895089&width=360");
+  
+
+}
+.p4 {
+    background-image: url("https://www.darimooch.com/cdn/shop/products/Under-Eye-Balm_f88a0eb9-f1b4-4827-8bb0-fcfcfeecf73d.jpg?v=1676895089&width=360");
+   
+}
+
+.photos-c{
+    height: 200px;
+    width: 200px;
+    background-size: contain; 
+    background-repeat: no-repeat;  
+    border-radius: 50%;
+}
+
+
+
+
+.ads-c{
+
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-right: 30px;
+}
+
+.c1{
+    background-image: url("https://www.darimooch.com/cdn/shop/files/Detan.webp?v=1717566155&width=1512");
+}
+.c2{
+    background-image: url("https://www.darimooch.com/cdn/shop/files/Charcoal.webp?v=1717566380&width=1512");
+}
+.c3{
+    background-image: url("https://www.darimooch.com/cdn/shop/files/Acne_334561bd-e3c0-41bc-b2ed-c52a8d05e6cb.webp?v=1717566407&width=1512");
+}
+.c4{
+    background-image: url("https://www.darimooch.com/cdn/shop/files/Hair_Care_57fcd079-008b-455f-bf93-ab7ce79a9486.webp?v=1717566431&width=1512");
+}
+
+.f1{
+    background-color: #000;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nL{
+    background-color: #000;
+    font-size: 1 rem;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.sub{
+    color: white;
+    background-color: #000;
+    padding-bottom: 40px;
+    
+}
+
+.search-input{
+    width: 400px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+.f2{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgb(32, 31, 31);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.sec1 li{
+    color: white;
+    background-color:rgb(32, 31, 31);
+}
+.sec1 h3{
+    color: white;
+    background-color:rgb(32, 31, 31);
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.sec1{
+    color: white;
+    background-color: rgb(32, 31, 31);
+}
+
+.bio-text{
+    width: 20%;
+
+    color: white;
+    background-color: rgb(32, 31, 31);
+}
+
+.sec1 a{
+    color: white;
+    background-color: rgb(32, 31, 31);
+    text-decoration: none;
+}
+
+
+
+
+
+
